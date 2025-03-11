@@ -140,9 +140,9 @@ def main():
             video_processor_factory=PoseDetector,
             media_stream_constraints={
                 "video": {
-                    "frameRate": {"ideal": 15, "max": 30},  # Lower framerate
-                    "width": {"ideal": 640},
-                    "height": {"ideal": 480}
+                    "frameRate": {"ideal": 10, "max": 30},  # Lower framerate
+                    "width": {"ideal": 480},
+                    "height": {"ideal": 360}
                 },
                 "audio": False
             },
