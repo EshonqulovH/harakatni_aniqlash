@@ -1,3 +1,13 @@
+import mediapipe as mp
+import os
+
+# Mediapipe modellarini oldindan yuklab olish
+mp.solutions.holistic._download_oss_pose_landmark_model(0)
+mp.solutions.holistic._download_oss_face_landmark_model()
+mp.solutions.holistic._download_oss_hand_landmark_model()
+
+
+
 import cv2
 import av
 import mediapipe as mp
