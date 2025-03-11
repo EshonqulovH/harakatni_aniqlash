@@ -1,7 +1,7 @@
-opencv-python-headless==4.5.5.64
+streamlit
+streamlit-webrtc
+opencv-python-headless==4.7.0.72
 av
 mediapipe==0.10.21
 numpy
-streamlit
-streamlit-webrtc
 protobuf>=4.25.3,<5
